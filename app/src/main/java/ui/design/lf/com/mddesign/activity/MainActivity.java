@@ -43,7 +43,6 @@ public class MainActivity extends AppCompatActivity {
         init();
         initToolbar();
         initViewPager();
-
     }
 
     private void init() {
@@ -129,7 +128,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
     }
-//    public int getStatusBarHeight() {
+
+    //    public int getStatusBarHeight() {
 //        int result = 0;
 //        int resourceId = getResources().getIdentifier("status_bar_height", "dimen", "android");
 //        if (resourceId > 0) {
