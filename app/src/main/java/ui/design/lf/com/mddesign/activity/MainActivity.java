@@ -126,7 +126,6 @@ public class MainActivity extends AppCompatActivity {
             actionBar.setDisplayHomeAsUpEnabled(true);
             actionBar.setHomeAsUpIndicator(R.drawable.roundhead);
         }
-
     }
 
     //    public int getStatusBarHeight() {
