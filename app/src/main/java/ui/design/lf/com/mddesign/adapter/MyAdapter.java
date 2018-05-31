@@ -35,9 +35,8 @@ public class MyAdapter extends PagerAdapter {
     //返回要显示的条目内容, 创建条目
     @Override
     public Object instantiateItem(ViewGroup container, int position) {
-
-        int newposition = position % mImageViews.size();
-        ImageView imageView=mImageViews.get(newposition);
+        int newPosition = position % mImageViews.size();
+        ImageView imageView = mImageViews.get(newPosition);
         // a. 把View对象添加到container中
         container.addView(imageView);
         // b. 把View对象返回给框架, 适配器
