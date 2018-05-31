@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void init() {
+        //初始化控件
         drawer_layout = (DrawerLayout) findViewById(R.id.drawer_layout);
         toolbar = (Toolbar) findViewById(R.id.toolBar);
         mTabLayout = (TabLayout) findViewById(R.id.sliding_tabs);
